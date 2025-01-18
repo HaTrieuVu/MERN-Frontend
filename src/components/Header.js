@@ -36,7 +36,7 @@ const Header = () => {
                     <div>
                         <Link
                             to={"/login"}
-                            className="px-3 py-1 rounded-full text-xl bg-red-500 text-white hover:bg-red-800 hover:animate-[spin-slow]"
+                            className="px-3 py-1 rounded-full text-xl bg-red-400 transition-all text-white hover:bg-red-600 hover:animate-[spin-slow]"
                         >
                             Login
                         </Link>
